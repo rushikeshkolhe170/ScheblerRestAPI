@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T10:50:19 IST" name="Suite" finished-at="2024-06-06T10:50:24 IST" duration-ms="4481">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T10:50:19 IST" name="Test" finished-at="2024-06-06T10:50:24 IST" duration-ms="4481">
+      <class name="APITesting.ScheblerAPI.ProjectOperations">
+        <test-method signature="userLogin()[pri:1, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:21 IST" name="userLogin" finished-at="2024-06-06T10:50:21 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="addProject()[pri:2, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:21 IST" name="addProject" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.ProjectOperations.userLogin" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProject -->
+        <test-method signature="editProject()[pri:3, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:21 IST" name="editProject" finished-at="2024-06-06T10:50:22 IST" depends-on-methods="APITesting.ScheblerAPI.ProjectOperations.addProject" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProject -->
+        <test-method signature="projectList()[pri:4, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:22 IST" name="projectList" finished-at="2024-06-06T10:50:23 IST" depends-on-methods="APITesting.ScheblerAPI.ProjectOperations.editProject" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectList -->
+        <test-method signature="singleProjectDetails()[pri:5, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:23 IST" name="singleProjectDetails" finished-at="2024-06-06T10:50:23 IST" depends-on-methods="APITesting.ScheblerAPI.ProjectOperations.editProject" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleProjectDetails -->
+        <test-method signature="deleteProject()[pri:6, instance:APITesting.ScheblerAPI.ProjectOperations@304bb45b]" started-at="2024-06-06T10:50:23 IST" name="deleteProject" finished-at="2024-06-06T10:50:24 IST" depends-on-methods="APITesting.ScheblerAPI.ProjectOperations.editProject" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+      </class> <!-- APITesting.ScheblerAPI.ProjectOperations -->
+      <class name="APITesting.ScheblerAPI.ManufacturerandModels">
+        <test-method signature="userLogin()[pri:1, instance:APITesting.ScheblerAPI.ManufacturerandModels@723ca036]" started-at="2024-06-06T10:50:24 IST" name="userLogin" finished-at="2024-06-06T10:50:24 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="manufaturerAndModelsList()[pri:2, instance:APITesting.ScheblerAPI.ManufacturerandModels@723ca036]" started-at="2024-06-06T10:50:24 IST" name="manufaturerAndModelsList" finished-at="2024-06-06T10:50:24 IST" depends-on-methods="APITesting.ScheblerAPI.ManufacturerandModels.userLogin" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufaturerAndModelsList -->
+        <test-method signature="specificModelsList()[pri:3, instance:APITesting.ScheblerAPI.ManufacturerandModels@723ca036]" started-at="2024-06-06T10:50:24 IST" name="specificModelsList" finished-at="2024-06-06T10:50:24 IST" depends-on-methods="APITesting.ScheblerAPI.ManufacturerandModels.manufaturerAndModelsList" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specificModelsList -->
+      </class> <!-- APITesting.ScheblerAPI.ManufacturerandModels -->
+      <class name="APITesting.ScheblerAPI.UserOperations">
+        <test-method signature="userLogin()[pri:1, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:20 IST" name="userLogin" finished-at="2024-06-06T10:50:21 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="addUser()[pri:2, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="addUser" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.userLogin" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="editUser()[pri:3, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="editUser" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.addUser" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method signature="toatlUserCount()[pri:4, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="toatlUserCount" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.editUser" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toatlUserCount -->
+        <test-method signature="userStatus()[pri:5, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="userStatus" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.editUser" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userStatus -->
+        <test-method signature="changePassword()[pri:6, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="changePassword" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.editUser" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="availableUsersList()[pri:7, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="availableUsersList" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.changePassword" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- availableUsersList -->
+        <test-method signature="deleteUser()[pri:8, instance:APITesting.ScheblerAPI.UserOperations@7ae0a9ec]" started-at="2024-06-06T10:50:21 IST" name="deleteUser" finished-at="2024-06-06T10:50:21 IST" depends-on-methods="APITesting.ScheblerAPI.UserOperations.changePassword" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- APITesting.ScheblerAPI.UserOperations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

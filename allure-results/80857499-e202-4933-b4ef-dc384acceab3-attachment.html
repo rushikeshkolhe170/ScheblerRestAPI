@@ -1,0 +1,30 @@
+<div>DELETE to http://13.127.228.23/backend/index.php/remove_user</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;user_id&quot;: &quot;169&quot;,
+    &quot;deleted_by&quot;: &quot;1&quot;,
+    &quot;is_delete&quot;: &quot;0&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyRW1haWwiOiJhZG1pbiIsInVzZXJSb2xlIjoiQURNSU4iLCJBUElfVElNRSI6MTcxNzY1MTE4MX0.irZ3ep36_K0hbkmXuKSxOsoZl6iYM2r5EPaAfeV5EJ0</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X DELETE &#39;http://13.127.228.23/backend/index.php/remove_user&#39; -H &#39;Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyRW1haWwiOiJhZG1pbiIsInVzZXJSb2xlIjoiQURNSU4iLCJBUElfVElNRSI6MTcxNzY1MTE4MX0.irZ3ep36_K0hbkmXuKSxOsoZl6iYM2r5EPaAfeV5EJ0&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;user_id&quot;: &quot;169&quot;,
+    &quot;deleted_by&quot;: &quot;1&quot;,
+    &quot;is_delete&quot;: &quot;0&quot;
+}&#39;
+    </div>
+
